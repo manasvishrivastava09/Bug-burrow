@@ -1,0 +1,161 @@
+/* src/styles/App.css */
+body {
+    font-family: 'Arial', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #a2c969f9;
+    color: #215710;
+    font-weight: 500px;
+}
+
+h1 {
+    margin: 50px;;
+}
+
+
+textarea {
+    font-family: inherit;
+    min-height: 200px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.heroImg{
+    padding-top: 5px;
+    border-radius: 8px;
+    height: 500px;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headline{
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+
+    color: #05491e;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(30, end),
+    blink-caret .5s step-end infinite;
+   
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}
+.container {
+    margin-top: 10px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+
+.ticket-list {
+    margin-bottom: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.ticket-item {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+/* src/styles/App.css */
+
+.priority-fieldset {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.priority-label {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #1b3712;
+    display: flex;
+    align-items: center;
+}
+
+.priority-input {
+    margin-right: 5px;
+    transform: scale(1.1);
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    background-color: #23774e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.priority-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.priority-low {
+    background-color: green;
+}
+
+.priority-medium {
+    background-color: orange;
+}
+
+.priority-high {
+    background-color: red;
+}
+
+.results {
+    margin-top: 50px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
