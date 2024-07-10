@@ -91,7 +91,7 @@ export default function TicketForm({ dispatch, editingTicket }) {
         ))}
       </fieldset>
 
-      <button type="submit" className="button">
+      <button type="submit" className="submit-button">
         Submit
       </button>
 

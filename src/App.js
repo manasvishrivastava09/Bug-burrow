@@ -5,6 +5,7 @@ import TicketForm from './components/TicketForms';
 import ticketReducer from './reducers/ticketReducer';
 import TicketList from './components/TicketList';
 import { sortTickets } from './utilities/sortingUtilites';
+import Footer from './components/Footer';
 
 function App() {
   const initialState = {
@@ -58,6 +59,7 @@ function App() {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 }
