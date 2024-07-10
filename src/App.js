@@ -19,10 +19,16 @@ function App() {
 
   return (
     <div className="App">
-      <img src="HeroImg.jpg" alt="Bug Burrow" className='heroImg'></img>
-      <p className="headline">
-        <strong>Bug Burrow - Time to make task management easy!</strong>
-      </p>
+      <div className="Heading">
+        <img src="HeroImg.jpg" alt="Bug Burrow" className="heroImg"></img>
+        <p>
+          Bug Burrow <br />
+          <p className="headline">
+            <strong>Time to make task management easy!</strong>
+          </p>
+        </p>
+      </div>
+
       <div className="container">
         <h1>Enter Task Details</h1>
 

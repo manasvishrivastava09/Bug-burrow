@@ -22,19 +22,31 @@ label {
     display: block;
     padding-bottom: 10px;
 }
-
+ 
+.float-img {
+    width: 50%;
+    float: left;
+    padding: 0px;
+}  .float-child {
+    width: 80%;
+    float: right;
+    padding: 20px;
+}  
+.textbelow{
+    font-size: large;
+}
 .heroImg{
-    padding-top: 5px;
+    padding: 7px;
     border-radius: 8px;
-    height: 500px;
-    width: 70%;
+    margin-right: 60px;
+    width: 30%;
+    text-align: left;  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .headline{
     text-align: center;
-    padding: 80px;
+    padding-top: 30px;
     font-size: 30px;
-
     color: #05491e;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -56,12 +68,17 @@ label {
 @keyframes blink-caret {
   from, to { border-color: transparent }
 }
-.container {
-    margin-top: 10px;
-    max-width: 720px;
-    margin: 0 auto;
+.Heading{
+    font-size: 100px;
+    margin-left: 80px;
+    display: inline-flex;
+    font-weight: 900;
 }
-
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .ticket-list {
     margin-bottom: 200px;
